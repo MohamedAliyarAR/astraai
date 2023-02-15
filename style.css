@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+}
+h2{
+    font-family: 'Popins';
+}
+
+/* title designed */
+
+.title-content{
+    color: whitesmoke;
+    padding-top: 10%;
+}
+
+
+#title{
+    box-shadow: 0px 4px 250px -84px rgba(7, 190, 184, 0.5);
+    background: linear-gradient(100.66deg, #040028 18.49%, rgba(4, 0, 40, 0) 87.08%), url(images/title-img.png) ;
+    background-size: cover;
+    text-align: left;
+    padding:2rem;
+}
+
+li{
+    margin:1rem;
+}
+
+
+/* button styled inline format */
+
+
+li > a{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+h1{
+    font-family: 'Popins', sans-serif; 
+    /* font-size: 100px;  */
+}
+/* end of title */
+
+/* product */
+
+.dark {
+
+    background-color: #040028;
+    color: aliceblue;
+    padding:3% 10%;
+    
+}
+
+.product h2{
+    color: #07BEB8;
+}
+
+.container-fluid{
+    line-height: 2;
+}
+
+
+/* .row{
+    text-align: center;
+    justify-content: center;
+} */
+
+
+#dark-row2{
+    margin-top:10%;
+    
+}
+
+
+.pic-1{
+    width: 50%;
+    margin-right:25%;
+    margin-left: 20%;
+    /* height: 70%; */
+}
+
+
+.pic-2{
+    width: 55%;
+    /* height: 70%; */
+    margin-left: 25%;
+    margin-right: 20%;
+}
+
+
+/* about product  */
+
+.about-product h1  {
+    color: #07BEB8;
+}
+
+.light-pic{
+    width: 50%;
+    /* height: 70%; */
+    margin-right:25%;
+    margin-left: 20%;
+}
+
+
+#light{
+    padding:3% 10%;
+}
+
+
+/* card  */
+
+.about-us{
+ border:5px ;
+ border-color:#07BEB8;
+}
+
+
+ .aliyar-pic{
+    border-radius:50%;
+    width: 40%;
+}
+
+/* try now part */
+
+
+.bottom-dark{
+    background-color: #040028;
+    padding:3% 10%;
+    margin-bottom: 0;
+}
+.try-now{
+    border-radius: 20px;
+    height: 25vh;
+    width: 100%;
+    background: linear-gradient(92.62deg, #07BEB8 0.22%, #07BE92 99.8%);
+    text-align: center;
+    padding-top: 15px;
+    color: #040028;
+}
+
+.try-now button{
+    background-color: #040028;
+    color: #07BEB8;
+
+}
+
+#line{
+    border: solid #07BE92 1px;
+    margin: 0px;
+    opacity: 1;
+}
+
+
+
+/* footer section */
+
+.dark-footer{
+    padding: 2% 3%;
+    background-color: #040028;
+    color: aliceblue;  
+    margin: 0;
+}
+
+
+.context{
+
+    color: #07BE92;
+
+}
+
+
+.logo{
+    margin-right: -12px;
+}
+
+
+.mini{
+    font-size: 11px;
+    text-align: center;
+    margin: 0;
+}
+
+.mini-l{
+    font-size: 11px;
+    margin: 0;
+    text-align: right;
+}
+
+.mini-ll{
+    font-size: 11px;
+    margin: 0;
+    text-align: right;
+}
+
+.borders{
+    
+    border-style: solid;
+    border-width: 0 2px 0 2px;
+    border-color: #07BE92;
+}
+
+@media (max-width:1028px) {
+    .borders{
+        border-width: 0;
+    }
+}
